@@ -9,7 +9,18 @@ typedef float f32;
 
 constexpr i32 WIDTH{700};
 constexpr i32 HEIGHT{500};
+constexpr i32 ITERATIONS{12};
+constexpr f32 POWER{8.0};
 
+struct vec3 {
+    i32 x, y, z;
+};
+
+f32 mandelblub(vec3 pos) {
+    f32 dr = 1.0;
+    f32 r = 0.0;
+    for (i32 i = =)
+}
 
 int main() {
     InitWindow(WIDTH, HEIGHT, "Perlin Noise");
