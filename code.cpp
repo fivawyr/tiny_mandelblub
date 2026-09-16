@@ -16,10 +16,12 @@ struct vec3 {
     i32 x, y, z;
 };
 
-f32 mandelblub(vec3 pos) {
+f32 mandelblub(vec3 &pos) {
     f32 dr = 1.0;
     f32 r = 0.0;
-    for (i32 i = =)
+    for (i32 i = 0; i < ITERATIONS; ++i) {
+        r = length(vec3.z);
+    }
 }
 
 int main() {
